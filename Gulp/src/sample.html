@@ -1,0 +1,28 @@
+<html>
+    <link href="css/site.css" rel="stylesheet"/>
+    <script src="js/site.js"></script>
+<body>
+    <h1>sample heading1</h1>
+    <h2>sample heading2</h2>
+    <h3>sample heading3</h3>
+    <h4>sample heading4</h4>
+    <h5>sample heading5</h5>
+    <h6>sample heading5</h6>
+    <button>Alert</button>
+<br/>
+<br/>
+<br/>
+    <iframe src="sample-md.html">
+    </iframe>
+<script >
+    var alertObj;
+    document.addEventListener("DOMContentLoaded",function (){
+        alertObj=new AlertMe("Sample App.");
+      document.querySelector("button").addEventListener("click",function(){
+        alertObj.alert();
+      });
+  });
+    </script>
+
+</body>
+</html>

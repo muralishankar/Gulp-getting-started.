@@ -1,0 +1,26 @@
+$bold-font: bold;
+$normal-font: normal;
+$blue-me:blue;
+$red-me:orange;
+$btn-font-color:#b6b3b3;
+$btn-font-family: monospace;
+$btn-bgcolor:#fafafa;
+$btn-border-radius: 14px;
+$btn-border-color:#b61ba3;
+
+h1,h3,h4,h6{
+    font-weight: $bold-font;
+    color: $red-me;    
+}
+
+h2,h5{
+    font-weight: $normal-font;
+    color: $blue-me;
+}
+button{        
+    color: $btn-font-color;
+    font-family: $btn-font-family;
+    background-color: $btn-bgcolor;
+    border-radius: $btn-border-radius;
+    border-color: $btn-border-color;
+}
